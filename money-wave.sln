@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyWave.AppHost", "MoneyWave.AppHost\MoneyWave.AppHost.csproj", "{35633B3C-6F18-4628-B2CC-2F61BBFC5BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyWave.ServiceDefaults", "MoneyWave.ServiceDefaults\MoneyWave.ServiceDefaults.csproj", "{6674590D-5504-4B67-B641-1936A8911E99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyWave.ApiService", "MoneyWave.ApiService\MoneyWave.ApiService.csproj", "{5D105C63-B385-425A-B200-20E40A6B79AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyWave.Web", "MoneyWave.Web\MoneyWave.Web.csproj", "{7C172DDD-2098-4E75-9B11-4158FA1D7A06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35633B3C-6F18-4628-B2CC-2F61BBFC5BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35633B3C-6F18-4628-B2CC-2F61BBFC5BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35633B3C-6F18-4628-B2CC-2F61BBFC5BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35633B3C-6F18-4628-B2CC-2F61BBFC5BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6674590D-5504-4B67-B641-1936A8911E99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6674590D-5504-4B67-B641-1936A8911E99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6674590D-5504-4B67-B641-1936A8911E99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6674590D-5504-4B67-B641-1936A8911E99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D105C63-B385-425A-B200-20E40A6B79AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D105C63-B385-425A-B200-20E40A6B79AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D105C63-B385-425A-B200-20E40A6B79AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D105C63-B385-425A-B200-20E40A6B79AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C172DDD-2098-4E75-9B11-4158FA1D7A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C172DDD-2098-4E75-9B11-4158FA1D7A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C172DDD-2098-4E75-9B11-4158FA1D7A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C172DDD-2098-4E75-9B11-4158FA1D7A06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
