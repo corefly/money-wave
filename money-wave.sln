@@ -1,8 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{4E16779A-AF02-48D6-B5A5-A09E8886AFCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{63C51B5A-7CD6-4ADC-AE8D-B1C2840B13F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Identity.Api", "Services\Identity\Identity.Api\Identity.Api.csproj", "{2D8B99D6-83A1-4B60-A583-2788806CBFF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6CDC4502-F9F4-4CE9-991A-CB380B26A3D0}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{63C51B5A-7CD6-4ADC-AE8D-B1C2840B13F4} = {4E16779A-AF02-48D6-B5A5-A09E8886AFCA}
+		{2D8B99D6-83A1-4B60-A583-2788806CBFF4} = {63C51B5A-7CD6-4ADC-AE8D-B1C2840B13F4}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D8B99D6-83A1-4B60-A583-2788806CBFF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D8B99D6-83A1-4B60-A583-2788806CBFF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D8B99D6-83A1-4B60-A583-2788806CBFF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D8B99D6-83A1-4B60-A583-2788806CBFF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
